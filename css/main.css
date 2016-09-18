@@ -8,5 +8,31 @@ nav{
 #aboutParagraph{
 	font-family: 'Tangerine', cursive;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 25px;
+	font-size: 25.5px;
+}
+#about{
+	background-color: blue;
+	width: 100%;
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+    #aboutParagraph{
+    font-size: 16px;
+}
+
 }
