@@ -24,8 +24,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>  
 
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -91,7 +91,7 @@
             </a>
     </header>
     <!-- Page Content -->
-    <div class="container-fluid">
+    <div class="container">
         <!-- About Section -->
         <a name="about"></a>
         <br>
@@ -100,12 +100,12 @@
                 <br>
                 <h2 class="page-header text-center">About</h2>
             </div>
-            <div class="col-md-12 text-center" id="paragraph">Elena (Prikhodko) Knapp is a self-taught mixed media artist and calligrapher that lives and creates in Austin, Texas, USA. Elena is Russian and before moving to Austin lived in Middle East (UAE Dubai) for 14 years. Elena has always been creative and loved arts but started to paint herself only a few years ago. Her work has been shown throughout various venues of Texas. Elena's work is represented in a number of private collections world wide including USA, Canada, Australia, Europe, Russia and Middle East. She uses different paints such as 3D/acrylic/ceramic/glass/ink. All ornaments that Elena creates are original and never repeated. Most of her ornaments are painted in Mandala style. Mandala is a Sanskrit word that means "circle". For Elena it’s a very meditative and a spiritual process, Elena never sketches them and uses unique dot-to-dot technique for her ceramic plates, every plate is "one of a kind". Ideas and inspiration comes from all around - art, music, architecture etc. Right now Elena is working on her drawings and on using her patterns on different products such as fabric, iPhone covers and many more. Elena does calligraphy projects too, wedding invitations, addresses, certificates and art pieces that already been shown in various art show and exhibitions.
+            <div class="col-md-12 text-center" id="aboutParagraph">Elena (Prikhodko) Knapp is a self-taught mixed media artist and calligrapher that lives and creates in Austin, Texas, USA. Elena is Russian and before moving to Austin lived in Middle East (UAE Dubai) for 14 years. Elena has always been creative and loved arts but started to paint herself only a few years ago. Her work has been shown throughout various venues of Texas. Elena's work is represented in a number of private collections world wide including USA, Canada, Australia, Europe, Russia and Middle East. She uses different paints such as 3D/acrylic/ceramic/glass/ink. All ornaments that Elena creates are original and never repeated. Most of her ornaments are painted in Mandala style. Mandala is a Sanskrit word that means "circle". For Elena it’s a very meditative and a spiritual process, Elena never sketches them and uses unique dot-to-dot technique for her ceramic plates, every plate is "one of a kind". Ideas and inspiration comes from all around - art, music, architecture etc. Right now Elena is working on her drawings and on using her patterns on different products such as fabric, iPhone covers and many more. Elena does calligraphy projects too, wedding invitations, addresses, certificates and art pieces that already been shown in various art show and exhibitions.
             </div>
         </div>
         <!-- /.End About -->
         <!-- Portfolio Section -->
-       <a name="portfolio"></a>
+        <a name="portfolio"></a>
         <div class="row">
             <div class="col-lg-12">
                 <br>
@@ -198,8 +198,7 @@
         <!-- /.End Footer -->
     </div>
     <!-- /.container -->
-
-    <!-- jQuery --> 
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -210,19 +209,19 @@
     });
 
     $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
     </script>
 </body>
 
