@@ -1,12 +1,11 @@
 h2{
-	font-family: 'Tangerine';
+    font-family: 'Herr Von Muellerhoff', cursive;
 	font-size: 80px;
 }
 nav{
 	opacity: .9;
 }
 #aboutParagraph{
-	font-family: 'Tangerine', cursive;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25.5px;
 }
