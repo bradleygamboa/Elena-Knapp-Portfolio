@@ -1,17 +1,14 @@
 h2{
-    font-family: 'Herr Von Muellerhoff', cursive;
+	font-family: 'Dancing Script', cursive;
 	font-size: 80px;
+    color: black    ;
 }
 nav{
 	opacity: .9;
 }
 #aboutParagraph{
-	font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Slabo 27px', serif;
 	font-size: 25.5px;
-}
-#about{
-	background-color: blue;
-	width: 100%;
 }
 /* Responsive Styles */
 
