@@ -10,6 +10,57 @@ nav{
     font-family: 'Slabo 27px', serif;
 	font-size: 25.5px;
 }
+hr.style1 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 1px 0 0 0; 
+  border-radius: 30px; 
+  max-width: 650px;
+} 
+hr.style1:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 0 0 1px 0; 
+  border-radius: 30px; 
+}
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 2px;
+  text-align: center;
+  max-width: 350px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f006";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 1.25em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
 /* Responsive Styles */
 
 @media handheld, screen and (max-width:991px) {
@@ -33,4 +84,8 @@ nav{
     .shops{
         margin-bottom: 5px;
     }
+}
+h6{
+    font-size: 11px;
+
 }
