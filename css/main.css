@@ -52,7 +52,10 @@ screen and (max-width:991px) {
 @media handheld,
 screen and (max-width:767px) {
     .img-portfolio {
-        margin-bottom: 15px;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        max-width: 45%;
     }
     header.carousel .carousel {
         height: 70%;
