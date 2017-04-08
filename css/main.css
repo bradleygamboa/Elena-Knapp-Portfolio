@@ -8,8 +8,15 @@ h6 {
     font-size: 11px;
 }
 
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;  
+}
+
 nav {
-    opacity: .9;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    opacity: .8;
 }
 
 #aboutParagraph {
